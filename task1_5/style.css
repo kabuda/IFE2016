@@ -1,0 +1,116 @@
+*{padding:0;margin:0;
+ font-family:"微软雅黑";
+ box-sizing:border-box;    /*用来清除padding给容器本身大小造成的的影响*/
+ webkit-box-sizing:border-box;
+ moz-box-sizing:border-box;
+ }
+ body{background:#CCC;}
+ header{background:#000;padding:10px 20px;height:80px;position:relative;width:100%;}
+ header img {height:60px;width:60px;margin-left:10px;}
+ header nav ul{
+     position:absolute;
+     padding:10px;
+     right:30px;
+     top:50%;
+     margin-top:-30px;
+     }
+ header nav li{
+     float:left;
+     list-style:none;
+     margin:10px;}
+ a{
+     text-decoration:none;
+     color:#666;
+     font-size:14px;
+     }
+a:hover{color:#009;}
+p{text-indent:2em;
+ font-size:14px;
+}
+article{padding:20px;
+background:#FFF;
+border:solid 1px #666666;
+box-shadow: 0 5px 5px 0 #666;
+margin:10px;
+line-height:2em;
+overflow:auto;
+}
+aside{width:370px;float:right;
+padding:20px;
+background:#FFF;
+border:solid 1px #666666;
+box-shadow: 0 5px 5px 0 #666;
+margin:0 20px;
+
+  }
+aside h4{border-left:solid 3px #999;padding-left:5px;}
+aside form div{margin:15px 0; font-size:14px;}
+  .item
+  {
+     float:left;
+     text-align:right;
+     width:35%;
+     padding-right:15px;
+  }
+ .remind {font-size:12px;
+          color:#ccc;
+          margin-left:90px;
+ }
+ .submit{background:#00F;
+         width:300px;
+         height:40px;
+         color:#fff;
+         margin:20px 35px;
+         border-radius:10px;
+ }
+h3{color:#999;}
+.auther{
+    color:#CCC;}
+article ul li
+ {list-style:none;
+text-indent:2em;}
+article dl dd
+{border:solid 1px #CCCCCC;
+margin:10px;
+padding:10px;
+overflow:auto;
+float:left;
+
+}
+article dl dd img
+{margin:10px;
+ width:160px;
+}
+.imgText
+{
+    text-align:center;
+    display:block;
+}
+ol
+{margin-left:30px;}
+.bb
+{font-size:18px;
+color:#000;
+}
+table {border-collapse:collapse;
+margin:20px auto;
+width:100%;
+}
+.thead
+{
+    background:#000;
+    color:white;
+    text-align:left;
+}
+.lastTr
+{
+    background:#CCC;
+    font-weight:bold;
+}
+footer
+{
+    background:#000;
+    line-height:80px;
+    text-align:center;
+    width:100%;
+    height:80px;}

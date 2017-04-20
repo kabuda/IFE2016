@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Javascript task 14</title>
+    <style>
+        li {list-style:none;}
+    </style>
+</head>
+<body>
+<h3>污染城市列表</h3>
+  <ul id="aqi-list">
+  </ul>
+  <script type="text/javascript">
+
+    var aqiData = [
+  ["北京", 90],
+  ["上海", 50],
+  ["福州", 10],
+  ["广州", 50],
+  ["成都", 90],
+  ["西安", 100]
+];
+ window.onload = function(){
+  for(var i=0;i<aqiData.length;i++)
+   {
+    for (var j=0;j<aqiData[i].length;j++)
+     {
+        var score=aqiData[i][j];
+        if(score>60)
+        {
+            var aqi_list =  document.getElementById('aqi-list');
+            var li = document.createElement("li");
+            var aqi_list_li = aqi_list.appendChild(li); //此处appendChild方法括号里面一定不能够添加双引号
+            aqi_list_li.innerHTML = aqiData[i];
+        }
+    }
+  }
+}
+   </script>
+</body>
+</html>

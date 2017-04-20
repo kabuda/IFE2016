@@ -1,0 +1,23 @@
+/*
+* @Author: Marte
+* @Date:   2016-08-05 11:38:11
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-10-30 13:40:38
+*/
+*{padding:0;margin:0;font-size:14px;
+font-family:"微软雅黑";}
+.wrap
+{
+    margin:20px;
+    padding:20px;
+    background:#eee;
+    border:solid 1px #999;
+    overflow:auto;
+    zoom:1;   /*触发ie6、7的hasLayout属性*/
+    }
+.leftBox{float:left;width:200px;border:solid 1px #999;padding:20px;margin:0 60px;}
+.leftBox span{margin-left:10px;float:right;}
+.centerBox{border:solid 1px #999;overflow:auto;zoom:1}
+.rightBox{width:120px;float:right;border:solid 1px #999;margin:0 60px;}
+.imgBox{margin:10px 20px;}
+p{text-indent:2em;}

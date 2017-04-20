@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Task 13</title>
+    <script type="text/javascript">
+     function swap (){
+         var aqi_input=parseInt(document.getElementById("aqi-input").value);
+         var aqi_display= document.getElementById("aqi-display");
+         if(!isNaN(aqi_input)&&(aqi_input>1&&aqi_input<1000))
+         aqi_display.innerHTML = aqi_input;
+       else
+        aqi_display.innerHTML ="您的输入有误";
+}
+
+</script>
+</head>
+<body>
+
+   <label  for="aqi-input">请输入北京今天空气质量：<input id="aqi-input" type="text" placeholder="请输入1-1000的数"></label>
+   <button id="button" onclick="swap();">确认填写</button>
+   <div>您输入的值是：<span id="aqi-display"></span></div>
+
+
+</body>
+</html>

@@ -1,0 +1,283 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, em, img, strong, b, u, i, dl, dt, dd, ol, ul, li, form, label, table, tbody, thead, tr, th, td,header{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  webkit-box-sizing:border-box;
+  moz-box-sizing:border-box;
+ font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+}
+ol, ul { list-style: none; }
+li{float: left;}
+img { border: 0;}
+a{ text-decoration:none; }
+
+/* 以上为reset样式 */
+  /* 以下为header样式 */
+
+header
+{
+    width:100%;
+    height:1.14rem;
+    line-height: 1.14rem;
+    background-color:#91d4da;
+    position: relative;
+}
+ header .header_back
+{
+    color:#fff;
+    font-size: .22rem;
+    position: absolute;  /*设置绝对定位第一可以保证左边间距正确，第二可以让下方的h1浮上来*/
+    left: .55rem;
+}
+header .header_back  img
+{
+    width: .20rem;
+    height: .31rem;
+    vertical-align: sub;
+}
+header h1
+{
+    color:#fff;
+    font-size: .29rem;
+    text-align: center;
+}
+/* banner区域*/
+.banner{
+    width:100%;
+}
+.navbar{
+    width:100%;
+    height:1.16rem;
+}
+.navbar ul li{
+    width:20%;
+    height:1.16rem;
+    line-height:1.16rem;
+    text-align:center;
+}
+.navbar ul li a
+{
+    color:#363636;
+    font-size:12px;
+}
+.navbar  .active
+{
+    border-bottom: solid 2px #91d4da;
+}
+/*菜单区域*/
+.menu{
+  width: 100%;
+  height:2.92rem;
+}
+.menu  ul
+{
+  width:100%;
+  height:100%;
+  padding: .42rem;
+}
+.menu  ul li
+{
+  width:20%;
+  height:100%;
+
+}
+.menu  .method_one_image
+{
+  background: url(images/menu_one.png) center  no-repeat;
+}
+.menu  ul  .method_two_image
+{
+  background: url(images/menu_two.png) center  no-repeat;
+}
+.menu  ul  .method_three_image
+{
+ background: url(images/menu_five.png)  center  no-repeat;
+}
+.menu  ul  .method_four_image
+{
+   background: url(images/menu_four.png) center  no-repeat;
+}
+.menu  ul  .method_five_image
+{
+   background: url(images/menu_five.png) center  no-repeat;
+}
+ .menu  ul  p
+{
+  text-align:center;
+  font-size:12px;
+  color:#666;
+  padding-top:2.0rem;
+}
+.splitLine
+{
+  width:95%;
+  height: .03rem;
+  margin:0 auto;
+  color:#666;
+}
+/*分栏区域*/
+.column{
+  width:95%;
+  margin:0 auto;
+  padding-top: .59rem;
+}
+.column ul
+{
+  width:100%;
+  height:2.8rem;
+}
+.column ul li
+{
+  width:31%;
+}
+.column ul li:not(:last-child){
+  border-right:solid .03rem #666;
+}
+.column figure
+{
+  position:relative;
+  height:1.80rem;
+  margin:0 auto;
+}
+.column figure img
+{
+  width：1.70rem;
+  height:1.68rem;
+  position:absolute;
+  left:.6rem;
+}
+
+.column h2
+{
+  text-align:center;
+  font-size:16px;
+  color:#666;
+  font-weight: 900;
+}
+.column  h3
+{
+  text-align:center;
+  font-size:12px;
+  color:#666;
+}
+
+
+.trans_bar
+{
+  width:100%;
+  height: .37rem;
+  background-color:#eee;
+  margin-top: .5rem;
+}
+/*模块一区域*/
+.module
+{
+  width:95%;
+  height: 6.64rem;
+  margin:0 auto;
+  padding-top: .22rem;
+  padding-left: .15rem;
+}
+.module .module_one_splitLine,.module .module_two_splitLine
+{
+  width:100%;
+  margin:.37rem 0;
+
+}
+.module h1
+{
+  padding-top: .37rem;
+}
+.module .module_one_content, .module .module_two_content
+{
+  width:100%;
+  height:2.35rem;
+}
+.module .module_one_content img,.module .module_two_content img
+{
+  float: left;
+  width:2.5rem;
+  height:2.35rem;
+  margin-right: .3rem;
+
+}
+.module .module_one_content ul,.module .module_two_content ul
+{
+    width: 60%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;;
+    padding-left:.3rem;
+}
+
+.module .module_one_content ul li,.module .module_two_content ul li
+{
+    margin-bottom: .1rem;
+    height: 1.1rem;
+    width: 2.6rem;
+    background-color: #eee;
+    text-align: center;
+    line-height: 1.1rem;
+}
+
+/*文章区域 */
+.article_one,.article_two {
+  width:100%;
+  height:2.40rem;
+  padding-top: .22rem;
+  padding-left: .35rem;
+  border-bottom:solid 2px #eee;
+}
+.article_one img,.article_two img
+{
+   width:2.81rem;
+  height:1.94rem;
+  float:left;
+  margin-right: .3rem;
+}
+.article_one  span, .article_two span
+{
+  width:100%;
+  height:1.94rem;
+}
+.article_one  span h1, .article_two span h1
+{
+  font-size:22px;
+  color:#363636;
+}
+.article_one span p,.article_two span p
+{
+  color:#666;
+  margin-top:1.2rem;
+}
+.article_three
+{
+  width:100%;
+  padding-top: .22rem;
+  padding-left: .35rem;
+}
+.article_three  h2
+{
+  font-size:22px;
+  color:#363636;
+  font-weight:900;
+}
+.article_three figure
+{
+  float:left;
+  width:3.11rem;
+  height:1.98rem;
+  margin:.1rem;
+}
+.article_three figure img
+{
+  width:3.11rem;
+  height:1.98rem;
+}
+.article_three  p
+{
+  color:#666;
+ margin-top:2.8rem;
+}

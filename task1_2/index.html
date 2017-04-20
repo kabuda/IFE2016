@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+<head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <header role="logo">
+      <h1><a href="#"><img src="image/1.png" alt="logo" /></a></h1>
+      <nav role="navigation">
+      <ul>
+        <li><a href="#">导航一</a></li>
+        <li><a href="#">导航二</a></li>
+        <li><a href="#">导航三</a></li>
+        <li><a href="#">导航四</a></li>
+      </ul>
+      </nav>
+    </header>
+    <!--以上为logo部分-->
+    <main role="main">
+       <article role="novel">
+          <h2>小说的一级标题</h2>
+          <h3>小说的二级标题</h3>
+          <span class="publish">photograpy by  wuquan  &nbsp;发布时间：2016-08-04&nbsp;&nbsp;星期四</span>
+          <p>这是一个很长的段落，这是一个很长的段落。这是一个很长的段落，这是一个很长的段落这是一个很长的段落，这是一个很长的段落这是一个很长的段落，这是一个很长的段落这是一个很长的段落，这是一个很长的段落
+          <a href="http://ife.baidu.com">这里有一个链接到IFE的链接</a></p>
+          <p>这又是一个很长很长的段落，这还是一个很长的段落。</p>
+          <p>好看的图片</p>
+          <h1><a href="#"><img src="image/2.jpg" alt="好看的图片"></a></h1>
+          <p>这还是一个很长很长的段落，这是一个很长很长的段落。这还是一个很长很长的段落，这是一个很长很长的段落。这还是一个很长很长的段落，这是一个很长很长的段落。这还是一个很长很长的段落，这是一个很长很长的段落。</p>
+       </article>
+       <article role="blog">
+          <h2>另一篇文章的标题</h2>
+          <h3>另一篇文章的二级标题</h3>
+          <span class="publish">photography  by wuquan &nbsp; 发表时间：2016-08-04</span>
+          <p>这不是一个很长很长的段落，这不是一个很长的段落。这不是一个很长很长的段落，这不是一个很长的段落。这不是一个很长很长的段落，这不是一个很长的段落。这不是一个很长很长的段落，这不是一个很长的段落。这不是一个很长很长的段落，这不是一个很长的段落。这不是一个很长很长的段落，这不是一个很长的段落。
+          换行了 <br/> 这不是一个很长很长的段落。这不是一个很长很长的段落。这不是一个很长很长的段落。这不是一个很长很长的段落。这不是一个很长很长的段落。这不是一个很长很长的段落。这不是一个很长很长的段落。
+          </p>
+          <h1><img src="image/2.jpg" alt="好看的图片"/></h1>
+          <ul style="text-indent:2em;">
+            <li>列表项目一</li>
+            <li>列表项目二</li>
+            <li>列表项目三</li>
+          </ul>
+       </article>
+       <article role="pic">
+          <h1>图片</h1>
+           <dl>
+             <dl>
+                <dt></dt>
+                <dd><span>拥抱大海</span><img src="image/2.jpg" alt="面向大海" /></dd>
+                <dd><span>拥抱大海</span><img src="image/2.jpg" alt="面向大海" /></dd>
+                <dd><span>拥抱大海</span><img src="image/2.jpg" alt="面向大海" /></dd>
+                <dd><span>拥抱大海</span><img src="image/2.jpg" alt="面向大海" /></dd>
+            </dl>
+          </dl>
+
+       </article>
+       <article role="last blog">
+         <h2>最后一篇文章的一级标题</h2>
+         <h3>最后文章的二级标题</h3>
+         <span class="publish">photography by wuquan &nbsp;发表时间：2016-08-04</span>
+         <ol>
+         <li>排名一</li>
+         <li>排名二</li>
+         <li>排名三</li>
+         </ol>
+         <p>下面是一个表格，之所以加了个border='1'是为了让你们看不出来是个表格。你们写html的时候不需要写</p>
+         <table  border="1">
+         <tr class="Thead">
+          <th>表头</th>
+          <th>表头</th>
+          <th>表头</th>
+         </tr>
+         <tr>
+           <td>表内容单元格</td>
+           <td>表内容单元格</td>
+           <td><a href="#">操作</a></td>
+         </tr>
+           <tr>
+           <td>表内容单元格</td>
+           <td>表内容单元格</td>
+           <td><a href="#">操作</a></td>
+         </tr>
+           <tr>
+           <td>表内容单元格</td>
+           <td>表内容单元格</td>
+           <td><a href="#">操作</a></td>
+         </tr>
+           <tr>
+           <td>表内容单元格</td>
+           <td>表内容单元格</td>
+           <td><a href="#">操作</a></td>
+         </tr>
+         <tr class="bottomData">
+           <td>总计</td>
+           <td colspan="2">1000</td>
+         </tr>
+         </table>
+       </article>
+    </main>
+
+    <aside>
+     <h4>这里是一个侧栏，这是侧栏的标题</h4>
+        <form action="save.php" method="post">
+            <div>
+                <label class="tips">请输入邮箱地址</label>
+
+                <input type="text" placeholder="邮箱" />
+                <p>邮箱地址请按要求格式输入</p>
+            </div>
+
+            <div>
+                <label class="tips">请输入密码</label>
+                <input type="password" placeholder="密码" />
+            </div>
+
+            <div>
+                <label class="tips">请重复输入密码</label>
+                <input type="password" placeholder="请重复输入密码" />
+                <p>密码请为6-16位英文数字</p>
+            </div>
+        </form>
+
+
+            <form action="save.php" method="post">
+                <!--同一组的单选按钮，name 取值一定要一致，这样同一组的单选按钮才可以起到单选的作用。-->
+                <div>
+                    <label class="tips">性别</label>
+                    <!--value提交数据到服务器的值；checked默认被选中-->
+
+                    <input type="radio" value="male" name="sex" checked="checked" />
+                    <label>男</label>
+                    <input type="radio" value="female" name="sex" />
+                    <label>女</label>
+                </div>
+
+            </form>
+            <form action="save.php" method="post">
+                <div>
+                    <label class="tips">城市</label>
+                    <select>
+                        <option value="北京">北京</option>
+                        <option value="上海" selected="selected">上海</option>
+                        <option value="广州">广州</option>
+                    </select>
+                </div>
+            </form>
+            <form action="save.php" method="post">
+                <div>
+                    <label class="tips">爱好</label>
+                    <input type="checkbox" value="sport" name="hobby" />
+                    <label>运动</label>
+                    <input type="checkbox" value="art" name="hobby" />
+                    <label>艺术</label>
+                    <input type="checkbox" value="science" name="hobby" />
+                    <label>科学</label>
+                </div>
+            </form>
+            <form action="save.php" method="post">
+                <div>
+                    <label class="tips">个人描述</label>
+
+                    <textarea rows="2" cols="20" >这是一个多行输入框( •̀ .̫ •́ )✧</textarea>
+                </div>
+            </form>
+        <input type="button" class="submitButton" value="确认提交" />
+    </aside>
+    <footer>
+       <span>版权所有&copy;</span>
+    </footer>
+
+</body>
+</html>
